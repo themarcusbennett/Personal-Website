@@ -73,21 +73,50 @@ html body {
     
     .technologies {
         text-align: center;
-        padding-bottom: 5%;
     }
     
-        .row {
-            padding-bottom: 5%;
-        }
+    .section-title {
+        padding-top: 10px;
+    }
 }
 
 .projects {
-    background-color: white;
+    background-color: #e7e7e7;
     background-size: cover;
+    text-align: center;
+    
+    .section-title {
+        padding-top: 10px;
+    }
+    
+    .port-item {
+        object-fit: cover;
+        width: 360px;
+        height: 360px;
+        padding-bottom: 30px; 
+        position: relative;
+        
+        .port-item-text {
+            position: absolute;
+            background: #585858;
+            align-items: center;
+            //overflow: hidden;
+            transition: 0.7s ease;
+            
+            .item-text {
+                color: white
+            }
+        }
+    }
 }
 
 .contact {
     background-color: white;
     background-size: cover;
+    text-align: center;
+    
+    .section-title {
+        padding-top: 10px;
+    }
 }
 

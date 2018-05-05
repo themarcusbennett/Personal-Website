@@ -44,17 +44,35 @@ html body {
   background-color: white;
   background-size: cover; }
   .about .technologies {
-    text-align: center;
-    padding-bottom: 5%; }
-  .about .row {
-    padding-bottom: 5%; }
+    text-align: center; }
+  .about .section-title {
+    padding-top: 10px; }
 
 .projects {
-  background-color: white;
-  background-size: cover; }
+  background-color: #e7e7e7;
+  background-size: cover;
+  text-align: center; }
+  .projects .section-title {
+    padding-top: 10px; }
+  .projects .port-item {
+    object-fit: cover;
+    width: 360px;
+    height: 360px;
+    padding-bottom: 30px;
+    position: relative; }
+    .projects .port-item .port-item-text {
+      position: absolute;
+      background: #585858;
+      align-items: center;
+      transition: 0.7s ease; }
+      .projects .port-item .port-item-text .item-text {
+        color: white; }
 
 .contact {
   background-color: white;
-  background-size: cover; }
+  background-size: cover;
+  text-align: center; }
+  .contact .section-title {
+    padding-top: 10px; }
 
 /*# sourceMappingURL=main.css.map */
