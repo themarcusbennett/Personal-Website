@@ -51,22 +51,28 @@ html body {
 .projects {
   background-color: #e7e7e7;
   background-size: cover;
-  text-align: center; }
+  text-align: center;
+  /* img container */
+  /* p container */ }
   .projects .section-title {
     padding-top: 10px; }
-  .projects .port-item {
-    object-fit: cover;
+  .projects .img-con {
+    position: relative;
+    padding: 15px 0;
+    /* img tag */ }
+    .projects .img-con .port-item {
+      width: 360px;
+      height: 360px;
+      object-fit: cover; }
+  .projects .port-item-text {
+    position: absolute;
+    top: 15px;
     width: 360px;
     height: 360px;
-    padding-bottom: 30px;
-    position: relative; }
-    .projects .port-item .port-item-text {
-      position: absolute;
-      background: #585858;
-      align-items: center;
-      transition: 0.7s ease; }
-      .projects .port-item .port-item-text .item-text {
-        color: white; }
+    background: blue;
+    opacity: .2;
+    padding: 15px 0;
+    /* p tag */ }
 
 .contact {
   background-color: white;

@@ -89,23 +89,32 @@ html body {
         padding-top: 10px;
     }
     
-    .port-item {
-        object-fit: cover;
+/* img container */
+    .img-con { 
+        position: relative;
+        padding: 15px 0;
+        
+    /* img tag */
+        .port-item {
+            width: 360px;
+            height: 360px;
+            object-fit: cover;
+        }
+    }
+    
+/* p container */
+    .port-item-text {
+        position: absolute;
+        top: 15px;
         width: 360px;
         height: 360px;
-        padding-bottom: 30px; 
-        position: relative;
+        background: blue;
+        opacity: .2;
+        padding: 15px 0;
         
-        .port-item-text {
-            position: absolute;
-            background: #585858;
-            align-items: center;
-            //overflow: hidden;
-            transition: 0.7s ease;
+    /* p tag */
+        .item-text {
             
-            .item-text {
-                color: white
-            }
         }
     }
 }
