@@ -52,10 +52,13 @@ html body {
   background-color: #e7e7e7;
   background-size: cover;
   text-align: center;
+  /* Needed for hover effect to work */
   /* img container */
   /* p container */ }
   .projects .section-title {
     padding-top: 10px; }
+  .projects .img-con:hover .port-item-text {
+    width: 360px; }
   .projects .img-con {
     position: relative;
     padding: 15px 0;
@@ -67,12 +70,20 @@ html body {
   .projects .port-item-text {
     position: absolute;
     top: 15px;
-    width: 360px;
+    width: 0;
     height: 360px;
-    background: blue;
-    opacity: .2;
+    background: rgba(0, 0, 0, 0.6);
     padding: 15px 0;
+    display: flex;
+    transition: 0.7s ease;
+    overflow: hidden;
+    align-items: center;
     /* p tag */ }
+    .projects .port-item-text .item-text {
+      text-align: center;
+      font-weight: 700;
+      color: #e1e1e1;
+      padding: 20%; }
 
 .contact {
   background-color: white;
