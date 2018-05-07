@@ -44,9 +44,61 @@ html body {
   background-color: white;
   background-size: cover; }
   .about .technologies {
-    text-align: center; }
-  .about .section-title {
-    padding-top: 10px; }
+    text-align: center;
+    align-content: center;
+    /*  .tech-con1 {
+          margin-left: 20%;
+      }
+      
+      .tech-con2 {
+          margin-left: 40%;
+      } */ }
+    .about .technologies .section-title {
+      padding-top: 10px; }
+    .about .technologies .container .row {
+      margin: 10px 0; }
+    .about .technologies .tech1 {
+      border: 1px solid #6196be;
+      border-radius: 20px;
+      background: #6196be;
+      color: white;
+      margin: 15px 15px; }
+    .about .technologies .tech2 {
+      border: 1px solid #9a7870;
+      border-radius: 20px;
+      background: #9a7870;
+      color: white;
+      margin: 15px 15px; }
+    .about .technologies .tech3 {
+      border: 1px solid #9ca6a7;
+      border-radius: 20px;
+      background: #9ca6a7;
+      color: white;
+      margin: 15px 15px; }
+    .about .technologies .tech4 {
+      border: 1px solid #1e2c34;
+      border-radius: 20px;
+      background: #1e2c34;
+      color: white;
+      margin: 15px 15px; }
+    .about .technologies .tech5 {
+      border: 1px solid #9b8f93;
+      border-radius: 20px;
+      background: #9b8f93;
+      color: white;
+      margin: 15px 15px; }
+    .about .technologies .tech6 {
+      border: 1px solid #56696d;
+      border-radius: 20px;
+      background: #56696d;
+      color: white;
+      margin: 15px 15px; }
+    .about .technologies .tech7 {
+      border: 1px solid #8c673b;
+      border-radius: 20px;
+      background: #8c673b;
+      color: white;
+      margin: 15px 15px; }
 
 .projects {
   background-color: #e7e7e7;
