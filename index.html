@@ -12,30 +12,35 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+    
+    <!-- Sticky Navbar -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet" type="text/css">
     
 </head>
 <body>
 
-<nav class="navbar">
-    <div class="container-fluid">
-        <div id="header-color">
-            <div class="navbar-header">
-                 <a class="navbar-brand" href="">Marcus Bennett</a>
-            </div>
-            <!-- nav border bottom -->
-            <!-- Nav Right About Us -->
-            <ul class="nav navbar-nav navbar-right">
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Contact</a></li>
-            </ul>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
-
-<section class="home">
+<section class="home scrollto" id="home">
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div id="header-color">
+                <div class="navbar-header">
+                     <a class="navbar-brand" href="">Marcus Bennett</a>
+                </div>
+                <!-- nav border bottom -->
+                <!-- Nav Right About Us -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="homepage">
         <div class="image-hero">
             <img src="img/hero-img8.png"> 
         </div> 
@@ -43,62 +48,71 @@
             <h1>
             <span class="left">I Am</span> 
             <br>Marcus Bennett<br> 
-            <span>A Website Developer</span>
-            </h1>
-             <!-- <p>I'm 20 years old, and reside in Boston, MA. My favorite programming language is Javascript...</p> -->
-        </div>
-</section>
-
-<section class="about">
-    <div class="technologies">
-        <div class="section-title">
-            <h2>Technologies I Know</h2>
-        </div>
-        <div class="container">
-            <div class="row tech-con1">
-                <div class="col-lg-3 tech1">
-                    <h3>HTML & CSS</h3>
-                </div>
-                <div class="col-lg-3 tech2">
-                    <h3>Git</h3>
-                </div>
-               <div class="col-lg-3 tech7">
-                    <h3>Command <!--Line--></h3>
-                </div>    
-            </div>
-            <div class="row tech-con1">
-                <div class="col-lg-3 tech6">
-                    <h3>Photoshop <br/><!--(Affinity Photo)--></h3>
-                </div>
-           </div>
-           <div class="row tech-con1">
-               <div class="col-lg-3 tech3">
-                    <h3>Javascript</h3>
-                </div>
-                <div class="col-lg-3 tech5">
-                    <h3>Bootstrap</h3>
-                </div>
-                <div class="col-lg-3 tech4">
-                    <h3>SASS</h3>
-                </div>
-           </div>
+            <span>A Front-End 
+            <br>Website Developer</span>
+            </h1> 
         </div>
     </div>
 </section>
 
-<section class="projects">
-    <div class="section-title">
-        <h2>My Portfolio</h2>
-    </div> 
-    <div class="portfolio container">
+<section class="about-me scrollto" id="about">
+   
+    <div id="section-title">
+        <h2>About Me</h2>
+    </div>
+    
+    <div class="section-content container">
         <div class="row">
-            <div class="col-xs-12">
-                <ul>
-                    <li>All</li>
-                    <li>Apps</li>
-                </ul> 
+            <div class="col-lg-6">
+                <img class="selfie" src="img/about-photo.png">
+            </div>
+            <div class="col-lg-6">
+                <p>I'm 20 years old, and reside in Boston, MA. My favorite programming language is Javascript...</p>
             </div>
         </div>
+    </div>
+    
+</section>
+
+<section class="skills scrollto" id="skills">
+   
+    <div id="section-title">
+        <h1>Skills</h1>
+    </div>
+    
+    <div class="technologies container">
+            <div class="row tech-con1">
+                <div class="col-lg-4 tech1">
+                    <h3 class="mar-top">HTML & CSS</h3>
+                </div>
+                <div class="col-lg-4 tech2">
+                    <h3 class="mar-top">Git</h3>
+                </div>
+               <div class="col-lg-4 tech3">
+                    <h3 class="mar-top">Command Line</h3>
+                </div>    
+            </div>
+           <div class="row tech-con2">
+               <div class="col-lg-4 tech5">
+                   <h3 class="mar-top">Javascript</h3>
+                </div>
+                <div class="col-lg-4 tech6">
+                   <h3 class="mar-top">Bootstrap</h3>
+                </div>
+                <div class="col-lg-4 tech7">
+                   <h3 class="mar-top">SASS</h3>
+                </div>
+           </div>
+    </div>
+</section>
+
+<section class="projects scrollto" id="portfolio">
+   
+    <div id="section-title">
+        <h2>My Portfolio</h2>
+    </div>
+     
+    <div class="portfolio container">
         <div class="portfolio-projects">
             <div class="row">
                 <div class="col-lg-4">
@@ -170,9 +184,9 @@
     </div>
 </section>
 
-<section class="contact">
+<section class="contact scrollto" id="contact">
    
-    <div class="section-title">
+    <div id="section-title">
         <h2>Contact Me</h2>
     </div>
     
@@ -203,8 +217,24 @@
     </div>
 </section>
 
+<section class="footer">
+    
+    <hr>
+    <h4>Built by Marcus Bennett</h4>
+    
+</section>
+
+<!-- Web JS -->
+<script src="web.js"></script>
+
+<!-- Bootstrap JS -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
 </script>
+
+<!-- Sticky Navbar -->
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="//cdn.jsdelivr.net/stickynavbar.js/1.3.2/jquery.stickyNavbar.min.js"></script>
 
 </body>
 </html>

@@ -1,37 +1,38 @@
 html body {
   font-family: 'Montserrat', sans-serif; }
 
-.navbar #header-color a {
-  color: aliceblue; }
-.navbar #header-color a:hover {
-  color: aliceblue;
-  background-color: transparent; }
-.navbar #header-color .navbar-right {
-  margin-right: 5%;
-  text-shadow: 1px .5px #363636; }
-
 .home {
   background-image: url(/img/cover1.jpg);
+  background-position-y: 54%;
   background-size: cover;
-  height: 100%;
+  height: 705px;
   width: 100%;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   min-height: 550px;
   z-index: -1; }
+  .home .navbar #header-color a {
+    color: aliceblue; }
+  .home .navbar #header-color a:hover {
+    color: aliceblue;
+    background-color: transparent; }
+  .home .navbar #header-color .navbar-right {
+    margin-right: 5%;
+    text-shadow: 1px .5px #363636; }
   .home .image-hero img {
     height: 225px;
     position: absolute;
-    top: 40%;
-    left: 41.7%;
+    top: 33.5%;
+    left: 41.8%;
     border-radius: 50%;
     border: 4px solid aliceblue; }
   .home .center-text {
+    display: inline-block;
     text-align: center;
-    position: relative;
-    top: 47%;
-    left: 35%;
+    position: absolute;
+    top: 39%;
+    left: 71%;
     text-shadow: 1px .5px #363636;
     color: aliceblue; }
     .home .center-text .left {
@@ -40,75 +41,112 @@ html body {
       text-transform: uppercase;
       font-size: 23px; }
 
-.about {
+.about-me {
   background-color: white;
-  background-size: cover; }
-  .about .technologies {
-    text-align: center;
-    align-content: center;
-    /*  .tech-con1 {
-          margin-left: 20%;
-      }
-      
-      .tech-con2 {
-          margin-left: 40%;
-      } */ }
-    .about .technologies .section-title {
-      padding-top: 10px; }
-    .about .technologies .container .row {
-      margin: 10px 0; }
-    .about .technologies .tech1 {
-      border: 1px solid #6196be;
-      border-radius: 20px;
-      background: #6196be;
-      color: white;
-      margin: 15px 15px; }
-    .about .technologies .tech2 {
-      border: 1px solid #9a7870;
-      border-radius: 20px;
-      background: #9a7870;
-      color: white;
-      margin: 15px 15px; }
-    .about .technologies .tech3 {
-      border: 1px solid #9ca6a7;
-      border-radius: 20px;
-      background: #9ca6a7;
-      color: white;
-      margin: 15px 15px; }
-    .about .technologies .tech4 {
-      border: 1px solid #1e2c34;
-      border-radius: 20px;
-      background: #1e2c34;
-      color: white;
-      margin: 15px 15px; }
-    .about .technologies .tech5 {
-      border: 1px solid #9b8f93;
-      border-radius: 20px;
-      background: #9b8f93;
-      color: white;
-      margin: 15px 15px; }
-    .about .technologies .tech6 {
-      border: 1px solid #56696d;
-      border-radius: 20px;
-      background: #56696d;
-      color: white;
-      margin: 15px 15px; }
-    .about .technologies .tech7 {
-      border: 1px solid #8c673b;
-      border-radius: 20px;
-      background: #8c673b;
-      color: white;
-      margin: 15px 15px; }
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 100px 0; }
+  .about-me #section-title {
+    padding: 10px; }
+    .about-me #section-title h2 {
+      font-weight: 600;
+      font-size: 35px;
+      letter-spacing: 1px; }
+  .about-me .selfie {
+    width: 60%; }
+  .about-me p {
+    font-weight: 500;
+    font-size: 18px; }
 
-.projects {
+.skills {
   background-color: #e7e7e7;
   background-size: cover;
   text-align: center;
+  padding: 100px 0;
+  width: 100%; }
+  .skills #section-title {
+    padding: 10px; }
+    .skills #section-title h2 {
+      font-weight: 600;
+      font-size: 35px;
+      letter-spacing: 1px; }
+  .skills .technologies .mar-top {
+    margin-top: 10px; }
+  .skills .technologies .tech-con1 {
+    margin: 0 15%;
+    padding: 1% 0; }
+    .skills .technologies .tech-con1 .tech1 {
+      margin: 0 1%;
+      border: 1px solid #6196be;
+      border-radius: 20px;
+      background: linear-gradient(#6196be, #82c9ff);
+      color: white;
+      width: 250px; }
+    .skills .technologies .tech-con1 .tech2 {
+      margin: 0 1%;
+      border: 1px solid #9a7870;
+      border-radius: 20px;
+      background: linear-gradient(#9a7870, #dfaea2);
+      color: white;
+      width: 250px; }
+    .skills .technologies .tech-con1 .tech3 {
+      margin: 0 1%;
+      border: 1px solid #9ca6a7;
+      border-radius: 20px;
+      background: linear-gradient(#9ca6a7, #d2dfe0);
+      color: white;
+      width: 250px; }
+  .skills .technologies .tech-con2 {
+    padding: 10px 0;
+    margin: 0 15%; }
+    .skills .technologies .tech-con2 .tech5 {
+      margin: 0 1%;
+      border: 1px solid #1e2c34;
+      border-radius: 20px;
+      background: linear-gradient(#1e2c34, #4f7388);
+      color: white;
+      width: 250px; }
+    .skills .technologies .tech-con2 .tech6 {
+      margin: 0 1%;
+      border: 1px solid #56696d;
+      border-radius: 20px;
+      background: linear-gradient(#56696d, #89a8ae);
+      color: white;
+      width: 250px; }
+    .skills .technologies .tech-con2 .tech7 {
+      margin: 0 1%;
+      border: 1px solid #8c673b;
+      border-radius: 20px;
+      background: linear-gradient(#8c673b, #cd9756);
+      color: white;
+      width: 250px; }
+
+.projects {
+  background-color: white;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  width: 100%;
   /* Needed for hover effect to work */
   /* img container */
   /* p container */ }
-  .projects .section-title {
+  .projects #section-title {
     padding-top: 10px; }
+    .projects #section-title h2 {
+      font-weight: 600;
+      font-size: 35px;
+      letter-spacing: 1px; }
+  .projects .tabs {
+    list-style: none;
+    text-align: center;
+    font-weight: 600; }
+    .projects .tabs .tab-toggle {
+      display: inline-block;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 16px; }
   .projects .img-con:hover .port-item-text {
     width: 360px; }
   .projects .img-con {
@@ -138,10 +176,40 @@ html body {
       padding: 20%; }
 
 .contact {
+  background-color: #e7e7e7;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  width: 100%; }
+  .contact #section-title {
+    padding-top: 10px; }
+    .contact #section-title h2 {
+      font-weight: 600;
+      font-size: 35px;
+      letter-spacing: 1px; }
+
+.footer {
   background-color: white;
   background-size: cover;
-  text-align: center; }
-  .contact .section-title {
-    padding-top: 10px; }
+  height: 100%;
+  width: 100%;
+  padding: 10px 0;
+  color: black; }
+  .footer hr {
+    width: 10%;
+    border-top: 1px solid black; }
+  .footer h4 {
+    text-align: center;
+    position: relative;
+    top: 50%; }
+
+.active {
+  color: #fff !important;
+  text-decoration: underline !important;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
 
 /*# sourceMappingURL=main.css.map */
