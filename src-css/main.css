@@ -12,14 +12,19 @@ html body {
   left: 0;
   min-height: 550px;
   z-index: -1; }
-  .home .navbar #header-color a {
-    color: aliceblue; }
-  .home .navbar #header-color a:hover {
-    color: aliceblue;
-    background-color: transparent; }
-  .home .navbar #header-color .navbar-right {
-    margin-right: 5%;
-    text-shadow: 1px .5px #363636; }
+  .home .navbar {
+    padding-top: 15px; }
+    .home .navbar #header-color a {
+      color: aliceblue; }
+    .home .navbar #header-color a:hover {
+      color: aliceblue;
+      background-color: transparent; }
+    .home .navbar #header-color .navbar-right {
+      margin-right: 5%;
+      text-shadow: 1px .5px #363636; }
+      .home .navbar #header-color .navbar-right li:nth-child(5) {
+        border: 1px solid white;
+        border-radius: 35px; }
   .home .image-hero img {
     height: 225px;
     position: absolute;
@@ -42,8 +47,7 @@ html body {
       font-size: 23px; }
 
 .about-me {
-  background-color: white;
-  background-size: cover;
+  background-color: inherit;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -61,10 +65,8 @@ html body {
     font-size: 18px; }
 
 .skills {
-  background-color: #e7e7e7;
-  background-size: cover;
+  background-color: inherit;
   text-align: center;
-  padding: 100px 0;
   width: 100%; }
   .skills #section-title {
     padding: 10px; }
@@ -72,60 +74,17 @@ html body {
       font-weight: 600;
       font-size: 35px;
       letter-spacing: 1px; }
-  .skills .technologies .mar-top {
-    margin-top: 10px; }
-  .skills .technologies .tech-con1 {
-    margin: 0 15%;
-    padding: 1% 0; }
-    .skills .technologies .tech-con1 .tech1 {
-      margin: 0 1%;
-      border: 1px solid #6196be;
-      border-radius: 20px;
-      background: linear-gradient(#6196be, #82c9ff);
-      color: white;
-      width: 250px; }
-    .skills .technologies .tech-con1 .tech2 {
-      margin: 0 1%;
-      border: 1px solid #9a7870;
-      border-radius: 20px;
-      background: linear-gradient(#9a7870, #dfaea2);
-      color: white;
-      width: 250px; }
-    .skills .technologies .tech-con1 .tech3 {
-      margin: 0 1%;
-      border: 1px solid #9ca6a7;
-      border-radius: 20px;
-      background: linear-gradient(#9ca6a7, #d2dfe0);
-      color: white;
-      width: 250px; }
-  .skills .technologies .tech-con2 {
-    padding: 10px 0;
-    margin: 0 15%; }
-    .skills .technologies .tech-con2 .tech5 {
-      margin: 0 1%;
-      border: 1px solid #1e2c34;
-      border-radius: 20px;
-      background: linear-gradient(#1e2c34, #4f7388);
-      color: white;
-      width: 250px; }
-    .skills .technologies .tech-con2 .tech6 {
-      margin: 0 1%;
-      border: 1px solid #56696d;
-      border-radius: 20px;
-      background: linear-gradient(#56696d, #89a8ae);
-      color: white;
-      width: 250px; }
-    .skills .technologies .tech-con2 .tech7 {
-      margin: 0 1%;
-      border: 1px solid #8c673b;
-      border-radius: 20px;
-      background: linear-gradient(#8c673b, #cd9756);
-      color: white;
-      width: 250px; }
+  .skills .skill-content {
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+    .skills .skill-content .width {
+      width: 227px; }
+    .skills .skill-content .skill {
+      padding: 30px; }
 
 .projects {
-  background-color: white;
-  background-size: cover;
+  background-color: inherit;
   text-align: center;
   padding: 100px 0;
   width: 100%;
@@ -176,8 +135,7 @@ html body {
       padding: 20%; }
 
 .contact {
-  background-color: #e7e7e7;
-  background-size: cover;
+  background-color: inherit;
   text-align: center;
   padding: 100px 0;
   width: 100%; }
@@ -189,8 +147,7 @@ html body {
       letter-spacing: 1px; }
 
 .footer {
-  background-color: white;
-  background-size: cover;
+  background-color: inherit;
   height: 100%;
   width: 100%;
   padding: 10px 0;

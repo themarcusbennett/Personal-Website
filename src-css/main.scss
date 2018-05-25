@@ -15,6 +15,7 @@ html body {
     z-index: -1;
     
     .navbar {
+        padding-top: 15px;
     
         #header-color {
 
@@ -30,9 +31,11 @@ html body {
             .navbar-right {
                 margin-right: 5%;
                 text-shadow: 1px .5px #363636;
-            }
-
-            .navbar-brand {
+                
+                li:nth-child(5) {
+                    border: 1px solid white;
+                    border-radius: 35px;
+                }
             }
         } 
     }
@@ -70,8 +73,7 @@ html body {
 }
 
 .about-me {
-     background-color: white;
-    background-size: cover;
+    background-color: inherit;
     width: 100%;
     height: 100%;
     text-align: center; 
@@ -98,10 +100,9 @@ html body {
 }
 
 .skills {
-    background-color: #e7e7e7;
-    background-size: cover;
+    background-color: inherit;
     text-align: center;
-    padding: 100px 0;
+    //padding: 100px 0;
     width: 100%;
     
     #section-title {
@@ -114,87 +115,23 @@ html body {
         }
     }
         
-    
-    .technologies {
-    
-        .mar-top {
-            margin-top: 10px;
+    .skill-content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        
+        .width {
+            width: 227px;
         }
         
-        .tech-con1 {
-            margin: 0 15%;
-            padding: 1% 0;
-        
-            .tech1 {
-                margin: 0 1%;
-                border: 1px solid #6196be;
-                border-radius: 20px;
-                background: linear-gradient(#6196be, #82c9ff );
-                color: white;
-                width: 250px;
-             
-            }
-            
-            .tech2 {
-                margin: 0 1%;
-                border: 1px solid #9a7870;
-                border-radius: 20px;
-                background: linear-gradient(#9a7870, #dfaea2);
-                color: white;
-                width: 250px;
-           
-            }
-            
-            .tech3 {
-                margin: 0 1%;
-                border: 1px solid #9ca6a7;
-                border-radius: 20px;
-                background: linear-gradient(#9ca6a7, #d2dfe0);
-                color: white;
-                width: 250px;
-            
-            }
-            
-        }
-        
-        .tech-con2 {
-            padding: 10px 0;
-            margin: 0 15%;
-            
-            .tech5 {
-                margin: 0 1%;
-                border: 1px solid #1e2c34;
-                border-radius: 20px;
-                background: linear-gradient(#1e2c34, #4f7388);
-                color: white;
-                width: 250px;
-               
-            }
-            .tech6 {
-                margin: 0 1%;
-                border: 1px solid #56696d;
-                border-radius: 20px;
-                background: linear-gradient(#56696d, #89a8ae);
-                color: white;
-                width: 250px;
-               
-            }
-            .tech7 {
-                margin: 0 1%;
-                border: 1px solid #8c673b;
-                border-radius: 20px;
-                background: linear-gradient(#8c673b, #cd9756);
-                color: white;
-                width: 250px;
-              
-            }
+        .skill {
+            padding: 30px;
         }
     }
 }
 
 .projects {
-    background-color: white;
-    background-size: cover;
+    background-color: inherit;
     text-align: center;
     padding: 100px 0;
     width: 100%;
@@ -264,8 +201,7 @@ html body {
 }
 
 .contact {
-    background-color: #e7e7e7;
-    background-size: cover;
+    background-color: inherit;
     text-align: center;
     padding: 100px 0;
     width: 100%;
@@ -282,8 +218,7 @@ html body {
 }
 
 .footer {
-    background-color: white;
-    background-size: cover;
+    background-color: inherit;
     height: 100%;
     width: 100%;
     padding: 10px 0;
