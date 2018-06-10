@@ -1,105 +1,123 @@
+@media (min-width: 480px) and (max-width: 1199px) {
+  #introduction {
+    padding-bottom: 100px; }
+    #introduction p {
+      width: 100%; }
+
+  #about-photo {
+    width: 350px;
+    left: 50%;
+    transform: translateX(-50%); }
+
+  #container2 {
+    margin-top: 0; }
+
+  #container3 {
+    margin-top: 0; }
+
+  .location {
+    margin-bottom: 50px; } }
 html body {
   font-family: 'Montserrat', sans-serif; }
 
+.content-container {
+  padding-left: 80px;
+  padding-right: 80px; }
+
 .home {
-  background-image: url(/img/cover1.jpg);
-  background-position-y: 54%;
+  background-image: url(/img/cover4.jpg);
   background-size: cover;
-  height: 705px;
+  background-position: center;
   width: 100%;
   position: relative;
-  top: 0;
-  left: 0;
-  min-height: 550px;
+  min-height: 705px;
   z-index: -1; }
   .home .navbar {
-    padding-top: 15px; }
-    .home .navbar #header-color a {
-      color: aliceblue; }
-    .home .navbar #header-color a:hover {
-      color: aliceblue;
-      background-color: transparent; }
-    .home .navbar #header-color .navbar-right {
-      margin-right: 5%;
-      text-shadow: 1px .5px #363636; }
-      .home .navbar #header-color .navbar-right li:nth-child(5) {
-        border: 1px solid white;
-        background: #3e7cad; }
-  .home .image-hero img {
-    height: 225px;
-    position: absolute;
-    top: 33.5%;
-    left: 41.8%;
-    border-radius: 50%;
-    border: 4px solid aliceblue; }
+    display: flex;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 18px; }
+    .home .navbar .container {
+      background: white;
+      border-radius: 15px;
+      padding-top: 5px; }
+    .home .navbar .icon-bar {
+      background-color: #326281; }
+    .home .navbar a {
+      color: #a8a8a8; }
   .home .center-text {
-    display: inline-block;
     text-align: center;
-    position: absolute;
-    top: 39%;
-    left: 71%;
     text-shadow: 1px .5px #363636;
-    color: aliceblue; }
-    .home .center-text .left {
-      text-align: left; }
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15% 0; }
     .home .center-text span {
       text-transform: uppercase;
       font-size: 23px; }
 
 .about-me {
   background-color: inherit;
-  width: 100%;
   height: 100%;
   text-align: center;
-  padding: 100px 0; }
-  .about-me p {
-    font-weight: 400;
-    font-size: 18px;
-    float: left;
-    width: 600px;
-    margin-bottom: 20px; }
-  .about-me .capitol-letter {
-    text-transform: capitalize;
-    font-weight: 600;
-    font-size: 3em;
-    line-height: 0.9; }
-  .about-me .uppercase {
-    text-transform: uppercase;
-    font-weight: 600; }
-  .about-me .about-photo::before {
-    content: "";
-    height: 70%;
-    width: 95%;
-    max-width: 300px;
-    top: 130px;
-    right: 70px;
-    border: 10px outset #3e7cad;
-    position: absolute;
-    z-index: 2;
-    box-shadow: inset -15px -15px 70px -10px #3e7cad; }
-  .about-me .about-photo::after {
-    content: "";
-    height: 70%;
-    width: 95%;
-    max-width: 300px;
-    top: -25px;
-    right: 170px;
-    border: 10px inset #ecb041;
-    position: absolute;
-    z-index: 0;
-    box-shadow: inset 15px 15px 70px -10px #ecb041; }
-  .about-me .about-photo {
-    position: relative; }
-  .about-me .selfie {
-    position: relative;
-    z-index: 2;
-    width: 350px;
-    max-width: 100%;
-    backface-visibility: visible;
-    /*box-shadow: 
-        0 2rem 3rem rgba(57, 86, 211, 1), -1rem -1rem 3rem rgba(255, 165, 0, 1);*/ }
-  .about-me p:nth-last-of-type(1) {
-    clear: left; }
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  .about-me .intro {
+    display: inline; }
+    .about-me .intro p:nth-child(2) {
+      border-left: 5px solid #aa6e6f;
+      text-align: left;
+      padding-left: 20px; }
+    .about-me .intro p:nth-child(1) {
+      border-left: 5px solid #326281;
+      text-align: left;
+      padding-left: 20px; }
+    .about-me .intro p {
+      font-weight: 400;
+      font-size: 1.5em;
+      width: 600px;
+      margin-bottom: 20px; }
+    .about-me .intro .capitol-letter {
+      text-transform: capitalize;
+      font-weight: 600;
+      font-size: 3em;
+      line-height: 0.9;
+      color: #326281; }
+    .about-me .intro .uppercase {
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #326281; }
+    .about-me .intro .about-photo::before {
+      content: "";
+      height: 75%;
+      width: 75%;
+      max-width: 300px;
+      top: -15px;
+      left: -15px;
+      border: 10px inset #fea6a8;
+      position: absolute;
+      z-index: 0;
+      box-shadow: inset 15px 15px 70px -10px #fea6a8; }
+    .about-me .intro .about-photo::after {
+      content: "";
+      height: 75%;
+      width: 75%;
+      max-width: 300px;
+      bottom: -15px;
+      right: -15px;
+      border: 10px outset #53a3d6;
+      position: absolute;
+      z-index: 0;
+      box-shadow: inset -15px -15px 70px -10px #53a3d6; }
+    .about-me .intro .about-photo {
+      position: relative; }
+    .about-me .intro .selfie {
+      position: relative;
+      z-index: 2;
+      width: 350px;
+      max-width: 100%;
+      backface-visibility: visible; }
 
 .skills {
   background-color: inherit;
@@ -123,61 +141,88 @@ html body {
 .projects {
   background-color: inherit;
   text-align: center;
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
   width: 100%;
-  /* Needed for hover effect to work */
-  /* img container */
-  /* p container */ }
+  /* PORTFOLIO */ }
   .projects #section-title {
     padding-top: 10px; }
     .projects #section-title h2 {
+      display: inline-block;
       font-weight: 600;
       font-size: 35px;
-      letter-spacing: 1px; }
-  .projects .img-con:hover .port-item-text {
-    width: 100%; }
-  .projects .img-con {
-    position: relative;
-    padding: 15px 0;
-    /* img tag */ }
-    .projects .img-con .port-item {
-      width: 100%;
+      letter-spacing: 1px;
+      border-bottom: 5px solid #aa6e6f;
+      color: #a8a8a8; }
+  .projects .portfolio {
+    display: inline;
+    /* Needed for hover effect to work */
+    /* img container */
+    /* p container */ }
+    .projects .portfolio .img-con:hover .port-item-text {
+      width: 100%; }
+    .projects .portfolio .img-con {
+      position: relative;
+      padding: 15px 0;
+      /* img tag */ }
+      .projects .portfolio .img-con .port-item {
+        width: 100%;
+        height: 360px;
+        object-fit: cover; }
+    .projects .portfolio .container2 {
+      margin-top: 75px; }
+    .projects .portfolio .container3 {
+      margin-top: -75px; }
+    .projects .portfolio .port-item-text {
+      position: absolute;
+      top: 15px;
+      width: 0;
       height: 360px;
-      object-fit: cover; }
-  .projects .container2 {
-    margin-top: 75px; }
-  .projects .container3 {
-    margin-top: -75px; }
-  .projects .port-item-text {
-    position: absolute;
-    top: 15px;
-    width: 0;
-    height: 360px;
-    background: rgba(0, 0, 0, 0.79);
-    padding: 15px 0;
-    display: flex;
-    transition: 300ms ease-in-out;
-    overflow: hidden;
-    align-items: center;
-    /* p tag */ }
-    .projects .port-item-text .item-text {
-      text-align: center;
-      justify-content: center;
-      font-weight: 700;
-      color: #e1e1e1;
-      padding: 30%; }
+      background: rgba(170, 110, 111, 0.9);
+      padding: 15px 0;
+      display: flex;
+      transition: 500ms ease-in-out;
+      overflow: hidden;
+      align-items: center;
+      /* p tag */ }
+      .projects .portfolio .port-item-text .item-text {
+        text-align: center;
+        justify-content: center;
+        font-weight: 700;
+        color: #e1e1e1;
+        padding: 30%; }
 
 .contact {
   background-color: inherit;
+  height: 100%;
   text-align: center;
-  padding: 100px 0;
-  width: 100%; }
+  padding-top: 100px;
+  padding-bottom: 100px; }
   .contact #section-title {
     padding-top: 10px; }
     .contact #section-title h2 {
+      display: inline-block;
       font-weight: 600;
       font-size: 35px;
-      letter-spacing: 1px; }
+      letter-spacing: 1px;
+      border-bottom: 5px solid #326281;
+      color: #a8a8a8; }
+  .contact .info {
+    display: inline; }
+  .contact .location {
+    color: #326281; }
+    .contact .location h2 {
+      color: inherit;
+      font-weight: 600; }
+  .contact .email {
+    color: #aa6e6f; }
+    .contact .email h2 {
+      color: inherit;
+      font-weight: 600; }
+  .contact h3 {
+    color: #a8a8a8; }
+  .contact .personal-email {
+    text-decoration: underline; }
 
 .footer {
   background-color: inherit;
