@@ -55,11 +55,6 @@
 
   .location {
     margin-bottom: 50px; } }
-@media (min-width: 390px) {
-  #about-photo {
-    width: 350px;
-    left: 50%;
-    transform: translateX(-50%); } }
 @media (min-width: 320px) and (max-width: 479px) {
   .content-container {
     padding-right: 20px;
@@ -101,12 +96,6 @@
 
   #footer {
     padding-top: 0; } }
-/* @media (min-width: 767px) and (max-width: 814px) {
-    
-    #home .navbar {
-        font-size: 16px;
-    }
-} */
 html body {
   font-family: 'Montserrat', sans-serif; }
 
@@ -116,20 +105,25 @@ html body {
   background-position: center;
   width: 100%;
   position: relative;
-  min-height: 705px;
-  z-index: -1; }
+  min-height: 705px; }
   .home .navbar {
     display: flex;
     padding-top: 20px;
     box-sizing: border-box;
     font-weight: 500;
-    font-size: 18px; }
+    font-size: 18px;
+    z-index: 50; }
     .home .navbar .container {
       background: white;
       border-radius: 15px;
       padding-top: 5px; }
     .home .navbar .icon-bar {
       background-color: #326281; }
+    .home .navbar a:hover {
+      text-decoration: line-through;
+      background-color: unset; }
+    .home .navbar a:focus {
+      background-color: unset; }
     .home .navbar a {
       color: #a8a8a8; }
   .home .center-text {
