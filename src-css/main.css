@@ -1,4 +1,18 @@
+@media (min-width: 1200px) and (max-width: 1920px) {
+  .content-container {
+    padding-left: 80px;
+    padding-right: 80px; }
+
+  #introduction p {
+    width: 70%; }
+
+  #about-photo {
+    width: 350px; } }
 @media (min-width: 480px) and (max-width: 1199px) {
+  .content-container {
+    padding-left: 80px;
+    padding-right: 80px; }
+
   #introduction {
     padding-bottom: 100px; }
     #introduction p {
@@ -15,14 +29,64 @@
   #container3 {
     margin-top: 0; }
 
+  #portfolio {
+    padding-top: 0; }
+
+  #contact {
+    padding-top: 0; }
+
   .location {
     margin-bottom: 50px; } }
+@media (min-width: 320px) and (max-width: 479px) {
+  .content-container {
+    padding-right: 20px;
+    padding-left: 20px; }
+
+  #introduction {
+    padding-bottom: 100px; }
+    #introduction p {
+      width: 100%; }
+
+  #container1 img {
+    height: 50%; }
+
+  #container2 {
+    margin-top: 0; }
+    #container2 img {
+      height: 50%; }
+
+  #container3 {
+    margin-top: 0; }
+    #container3 img {
+      height: 50%; }
+
+  #container4 img {
+    height: 50%; }
+
+  #portfolio {
+    padding-top: 0; }
+
+  #contact {
+    padding-top: 0; }
+
+  .location {
+    margin-bottom: 50px; }
+
+  #email h3 {
+    width: 100%;
+    font-size: 16px;
+    text-align: center; }
+
+  #footer {
+    padding-top: 0; } }
+/* @media (min-width: 767px) and (max-width: 814px) {
+    
+    #home .navbar {
+        font-size: 16px;
+    }
+} */
 html body {
   font-family: 'Montserrat', sans-serif; }
-
-.content-container {
-  padding-left: 80px;
-  padding-right: 80px; }
 
 .home {
   background-image: url(/img/cover4.jpg);
