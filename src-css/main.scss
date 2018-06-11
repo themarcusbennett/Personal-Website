@@ -1,4 +1,4 @@
-@media (min-width: 1200px) and (max-width: 1920px) {
+@media (min-width: 1200px) {
     .content-container {
         padding-left: 80px;
         padding-right: 80px;
@@ -13,6 +13,19 @@
         //left: 50%;
         //transform: translateX(-50%);
     }
+    
+    #container2 .img-con img {
+        object-position: bottom;
+    }
+    
+    #container3 .img-con img {
+        object-position: bottom;
+    }
+    
+    .projects #portfolio .port-item-text .item-text {
+        padding: 40%;
+    }
+    
 }
 
 @media (min-width: 480px) and (max-width: 1199px) {
@@ -34,6 +47,20 @@
         left: 50%;
         transform: translateX(-50%);
     }
+    
+     #container2 .img-con img {
+        object-position: bottom;
+    }
+    
+    #container3 .img-con img {
+        object-position: bottom;
+    }
+    
+    .projects #portfolio .port-item-text .item-text {
+        padding: 40%;
+    }
+    
+    
     
     #container1 {
         img {
@@ -74,6 +101,14 @@
     }
 }
 
+@media (min-width: 390px){
+    #about-photo {
+        width: 350px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+    
 @media (min-width: 320px) and (max-width: 479px) {
     
     .content-container {
@@ -89,18 +124,28 @@
             width: 100%;
         }
     }
+   
+    #about-photo {
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     
     #container1 {
         img {
-            height: 50%;
+            //height: 50%;
             //object-fit: contain;
+        }
+        #port-item-text {
+            
         }
     }
     
     #container2 {
         margin-top: 0;
         img {
-            height: 50%;
+            //height: 50%;
+            object-position: bottom;
             //object-fit: contain;
         }
     }
@@ -108,14 +153,15 @@
     #container3 {
         margin-top: 0;
         img {
-            height: 50%;
+            //height: 50%;
+            object-position: bottom;
             //object-fit: contain;
         }
     }
     
     #container4 {
         img {
-            height: 50%;
+            //height: 50%;
             //object-fit: contain;
         }
     }
