@@ -99,6 +99,11 @@
     .location {
         margin-bottom: 50px;
     }
+    
+    .icon {
+        left: 50%;
+        transform: translateX(-25%);
+    }
 }
     
 @media (min-width: 320px) and (max-width: 479px) {
@@ -180,6 +185,12 @@
     
     #footer {
         padding-top: 0;
+    }
+    
+    .icon {
+        transform: translateX(-25%);
+        margin-top: 20px;
+        
     }
 }
 
@@ -493,9 +504,11 @@ html body {
     }
     
     .icon {
-        display: inline-block;
+        display: block;
         position: relative;
         left: 50%;
+        width: 50px;
+        transform: translateX(-25%);
     }
     .icon a {
         position: relative;
