@@ -487,6 +487,19 @@ html body {
         text-align: center;
         position: relative;
         top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: inline-block;
+    }
+    
+    .icon {
+        display: inline-block;
+        position: relative;
+        left: 50%;
+    }
+    .icon a {
+        position: relative;
+        color: black;
     }
 }
 

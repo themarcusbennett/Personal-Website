@@ -316,6 +316,16 @@ html body {
   .footer h4 {
     text-align: center;
     position: relative;
-    top: 50%; }
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block; }
+  .footer .icon {
+    display: inline-block;
+    position: relative;
+    left: 50%; }
+  .footer .icon a {
+    position: relative;
+    color: black; }
 
 /*# sourceMappingURL=main.css.map */
