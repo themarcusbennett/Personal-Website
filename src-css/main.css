@@ -105,7 +105,8 @@
     transform: translateX(-25%);
     margin-top: 20px; } }
 html body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  background: #fbf7f7; }
 
 .home {
   background-image: url(/img/cover4.jpg);
@@ -207,6 +208,40 @@ html body {
       max-width: 100%;
       backface-visibility: visible; }
 
+.services {
+  text-align: center; }
+  .services #section-title {
+    padding-top: 10px; }
+    .services #section-title h2 {
+      display: inline-block;
+      font-weight: 600;
+      font-size: 35px;
+      letter-spacing: 1px;
+      border-bottom: 5px solid #326281;
+      color: #a8a8a8; }
+  .services .row {
+    display: flex;
+    align-items: stretch;
+    padding: 10px 0;
+    margin-bottom: 20px; }
+  .services .services-logo {
+    color: #aa6e6f;
+    margin-top: 20px; }
+  .services .services-text {
+    padding: 5px; }
+    .services .services-text h2 {
+      font-weight: 600;
+      text-transform: capitalize;
+      color: #326281;
+      margin-bottom: 20px; }
+    .services .services-text p {
+      font-size: 1.5em;
+      text-align: left;
+      line-height: 1.6; }
+  .services .col-lg-4:nth-child(2) {
+    border-left: 2px solid #a8a8a8;
+    border-right: 2px solid #a8a8a8; }
+
 .skills {
   background-color: inherit;
   text-align: center;
@@ -229,8 +264,6 @@ html body {
 .projects {
   background-color: inherit;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
   width: 100%;
   /* PORTFOLIO */ }
   .projects #section-title {
@@ -285,9 +318,7 @@ html body {
 .contact {
   background-color: inherit;
   height: 100%;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  text-align: center; }
   .contact #section-title {
     padding-top: 10px; }
     .contact #section-title h2 {
@@ -315,7 +346,7 @@ html body {
     text-decoration: underline; }
 
 .footer {
-  background-color: inherit;
+  background-color: white;
   height: 100%;
   width: 100%;
   padding: 10px 0;
