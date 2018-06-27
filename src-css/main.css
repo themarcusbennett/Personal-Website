@@ -22,10 +22,17 @@
     padding-left: 80px;
     padding-right: 80px; }
 
+  #content-container {
+    padding-left: 80px;
+    padding-right: 80px; }
+
   #introduction {
     padding-bottom: 100px; }
     #introduction p {
       width: 100%; }
+
+  #services .col-lg-6 {
+    width: 100%; }
 
   #about-photo {
     width: 350px;
@@ -54,7 +61,11 @@
     padding-top: 0; }
 
   .location {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+
+  .icon {
+    left: 50%;
+    transform: translateX(-25%); } }
 @media (min-width: 320px) and (max-width: 479px) {
   .content-container {
     padding-right: 20px;
@@ -64,6 +75,9 @@
     padding-bottom: 100px; }
     #introduction p {
       width: 100%; }
+
+  #services .col-lg-6 {
+    width: 100%; }
 
   #about-photo {
     width: 100%;
@@ -95,9 +109,17 @@
     text-align: center; }
 
   #footer {
-    padding-top: 0; } }
+    padding-top: 0; }
+
+  .icon {
+    transform: translateX(-25%);
+    margin-top: 20px; } }
+@media (max-width: 1002px) {
+  #services .row {
+    display: unset; } }
 html body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  background: #fbf7f7; }
 
 .home {
   background-image: url(/img/cover4.jpg);
@@ -199,6 +221,37 @@ html body {
       max-width: 100%;
       backface-visibility: visible; }
 
+.services {
+  text-align: center; }
+  .services #section-title {
+    padding-top: 10px; }
+    .services #section-title h2 {
+      display: inline-block;
+      font-weight: 600;
+      font-size: 35px;
+      letter-spacing: 1px;
+      border-bottom: 5px solid #326281;
+      color: #a8a8a8; }
+  .services .row {
+    display: flex;
+    align-items: stretch;
+    padding: 10px 0;
+    margin-bottom: 20px; }
+  .services .services-logo {
+    color: #aa6e6f;
+    margin-top: 20px; }
+  .services .services-text {
+    padding: 5px; }
+    .services .services-text h2 {
+      font-weight: 600;
+      text-transform: capitalize;
+      color: #326281;
+      margin-bottom: 20px; }
+    .services .services-text p {
+      font-size: 1.5em;
+      text-align: left;
+      line-height: 1.6; }
+
 .skills {
   background-color: inherit;
   text-align: center;
@@ -221,8 +274,6 @@ html body {
 .projects {
   background-color: inherit;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
   width: 100%;
   /* PORTFOLIO */ }
   .projects #section-title {
@@ -271,13 +322,13 @@ html body {
         font-weight: 700;
         color: #e1e1e1;
         padding: 30%; }
+        .projects .portfolio .port-item-text .item-text .link {
+          color: white; }
 
 .contact {
   background-color: inherit;
   height: 100%;
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px; }
+  text-align: center; }
   .contact #section-title {
     padding-top: 10px; }
     .contact #section-title h2 {
@@ -305,7 +356,7 @@ html body {
     text-decoration: underline; }
 
 .footer {
-  background-color: inherit;
+  background-color: white;
   height: 100%;
   width: 100%;
   padding: 10px 0;
@@ -316,6 +367,18 @@ html body {
   .footer h4 {
     text-align: center;
     position: relative;
-    top: 50%; }
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block; }
+  .footer .icon {
+    display: block;
+    position: relative;
+    left: 50%;
+    width: 50px;
+    transform: translateX(-25%); }
+  .footer .icon a {
+    position: relative;
+    color: black; }
 
 /*# sourceMappingURL=main.css.map */
