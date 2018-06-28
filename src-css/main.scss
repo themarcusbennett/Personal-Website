@@ -200,6 +200,13 @@
     
     #footer {
         padding-top: 0;
+        
+        hr {
+            width: 30%;
+            height: 20px;
+            border-top: unset;
+            border-bottom: 2px solid white;
+        }
     }
     
     .icon {
@@ -207,6 +214,108 @@
         margin-top: 20px;
         
     }
+}
+
+@media (max-width: 319px) {
+    
+    .content-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+     #introduction {
+        
+        padding-bottom: 100px;
+        
+        p { 
+            width: 100%;
+        }
+    }
+    
+    #services {
+        .col-lg-6 {
+            width: 100%
+        }
+    }
+   
+    #about-photo {
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    #container1 {
+        img {
+            //height: 50%;
+            //object-fit: contain;
+        }
+        #port-item-text {
+            
+        }
+    }
+    
+    #container2 {
+        margin-top: 0;
+        img {
+            //height: 50%;
+            object-position: bottom;
+            //object-fit: contain;
+        }
+    }
+    
+    #container3 {
+        margin-top: 0;
+        img {
+            //height: 50%;
+            object-position: bottom;
+            //object-fit: contain;
+        }
+    }
+    
+    #container4 {
+        img {
+            //height: 50%;
+            //object-fit: contain;
+        }
+    }
+    
+    #portfolio {
+        padding-top: 0;
+    }
+    
+    #contact {
+        padding-top: 0;
+    }
+    
+    .location {
+        margin-bottom: 50px;
+    }
+    
+    #email h3 {
+        //position: relative;
+        //right: 18px;
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    #footer {
+        padding-top: 0;
+        
+        hr {
+            width: 40%;
+            height: 20px;
+            border-top: unset;
+            border-bottom: 2px solid white;
+        }
+    }
+    
+    .icon {
+        transform: translateX(-25%);
+        margin-top: 20px;
+        
+    }
+    
 }
 
 @media (max-width: 1002px) {

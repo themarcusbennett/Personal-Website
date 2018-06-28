@@ -110,6 +110,64 @@
 
   #footer {
     padding-top: 0; }
+    #footer hr {
+      width: 30%;
+      height: 20px;
+      border-top: unset;
+      border-bottom: 2px solid white; }
+
+  .icon {
+    transform: translateX(-25%);
+    margin-top: 20px; } }
+@media (max-width: 319px) {
+  .content-container {
+    padding-right: 20px;
+    padding-left: 20px; }
+
+  #introduction {
+    padding-bottom: 100px; }
+    #introduction p {
+      width: 100%; }
+
+  #services .col-lg-6 {
+    width: 100%; }
+
+  #about-photo {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%); }
+
+  #container2 {
+    margin-top: 0; }
+    #container2 img {
+      object-position: bottom; }
+
+  #container3 {
+    margin-top: 0; }
+    #container3 img {
+      object-position: bottom; }
+
+  #portfolio {
+    padding-top: 0; }
+
+  #contact {
+    padding-top: 0; }
+
+  .location {
+    margin-bottom: 50px; }
+
+  #email h3 {
+    width: 100%;
+    font-size: 16px;
+    text-align: center; }
+
+  #footer {
+    padding-top: 0; }
+    #footer hr {
+      width: 40%;
+      height: 20px;
+      border-top: unset;
+      border-bottom: 2px solid white; }
 
   .icon {
     transform: translateX(-25%);
