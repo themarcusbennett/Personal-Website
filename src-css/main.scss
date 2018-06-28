@@ -552,15 +552,15 @@ html body {
 }
 
 .footer {
-    background-color: white;
+    background-color: #a8a8a8;
     height: 100%;
     width: 100%;
     padding: 10px 0;
-    color: black;
+    color: white;
     
     hr {
         width: 10%;
-        border-top: 1px solid black;
+        border-top: 2px solid white;
     }
     
     h4 {
@@ -581,7 +581,7 @@ html body {
     }
     .icon a {
         position: relative;
-        color: black;
+        color: white;
     }
 }
 

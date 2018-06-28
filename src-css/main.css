@@ -356,14 +356,14 @@ html body {
     text-decoration: underline; }
 
 .footer {
-  background-color: white;
+  background-color: #a8a8a8;
   height: 100%;
   width: 100%;
   padding: 10px 0;
-  color: black; }
+  color: white; }
   .footer hr {
     width: 10%;
-    border-top: 1px solid black; }
+    border-top: 2px solid white; }
   .footer h4 {
     text-align: center;
     position: relative;
@@ -379,6 +379,6 @@ html body {
     transform: translateX(-25%); }
   .footer .icon a {
     position: relative;
-    color: black; }
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */
